@@ -1,0 +1,14 @@
+Objetivo:
+Implementar uma rotina para determinar se dois empregados trabalham ou não no mesmo departamento da forma mais eficiente possível e também uma rotina para fazer a fusão dos dois departamentos, da forma mais eficiente possível.
+
+Estrutura:
+
+void initialize(int n) - Essa função é responsável por iniciar cada elemento (empregado) sendo seu próprio pai e tendo rank = 0.
+
+int find(int x) - A função find é responsável por encontrar o "pai" ou "líder" de um determinado elemento (no caso, estamos trabalhando com encontrar o departamento dos empregados).
+
+void unionSets(int x, int y) - Na função de união, comparamos dois "pais" de elementos (comparamos os departamentos dos elementos). Caso eles possuam o mesmo pai, saímos da função; caso contrário, começamos a comparar os dois departamentos e fazemos as atribuições necessárias para que a união seja feita de forma correta.
+
+int sameDepartment(int emp1, int emp2) - Função responsável por verificar se o "pai" (departamento) do elemento (empregado) é igual ao outro, retornando se é verdadeiro ou falso.
+
+int main(void) - Na função main, inicialmente fazemos a atribuição (de forma manual) dos primeiros 5 elementos em um departamento e outros 5 elementos em outro departamento (como solicitado no enunciado). Após essa atribuição, testamos todas as funções e printamos todos os resultados.
