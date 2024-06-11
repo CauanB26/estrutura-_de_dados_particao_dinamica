@@ -1,1 +1,1 @@
-# estrutura-_de_dados_particao_dinamica
+# estrutura_de_dados_particao_dinamica
