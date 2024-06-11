@@ -12,3 +12,56 @@ void unionSets(int x, int y) - Na função de união, comparamos dois "pais" de 
 int sameDepartment(int emp1, int emp2) - Função responsável por verificar se o "pai" (departamento) do elemento (empregado) é igual ao outro, retornando se é verdadeiro ou falso.
 
 int main(void) - Na função main, inicialmente fazemos a atribuição (de forma manual) dos primeiros 5 elementos em um departamento e outros 5 elementos em outro departamento (como solicitado no enunciado). Após essa atribuição, testamos todas as funções e printamos todos os resultados.
+
+saída do código:
+
+Estrutura inicial (antes de utilizarmos union):
+
+Empregado 0 está no departamento 1
+Empregado 1 está no departamento 1
+Empregado 2 está no departamento 1
+Empregado 3 está no departamento 1
+Empregado 4 está no departamento 1
+Empregado 5 está no departamento 6
+Empregado 6 está no departamento 6
+Empregado 7 está no departamento 6
+Empregado 8 está no departamento 6
+Empregado 9 está no departamento 6
+Empregado 10 está no departamento 10
+Empregado 11 está no departamento 11
+Empregado 12 está no departamento 12
+Empregado 13 está no departamento 13
+Empregado 14 está no departamento 14
+Empregado 15 está no departamento 15
+Empregado 16 está no departamento 16
+Empregado 17 está no departamento 17
+Empregado 18 está no departamento 18
+Empregado 19 está no departamento 19
+
+Estrutura depois de utilizarmos union:
+
+Empregado 0 está no departamento 1
+Empregado 1 está no departamento 1
+Empregado 2 está no departamento 1
+Empregado 3 está no departamento 1
+Empregado 4 está no departamento 1
+Empregado 5 está no departamento 6
+Empregado 6 está no departamento 6
+Empregado 7 está no departamento 6
+Empregado 8 está no departamento 6
+Empregado 9 está no departamento 6
+Empregado 10 está no departamento 10
+Empregado 11 está no departamento 11
+Empregado 12 está no departamento 12
+Empregado 13 está no departamento 13
+Empregado 14 está no departamento 14
+Empregado 15 está no departamento 15
+Empregado 16 está no departamento 16
+Empregado 17 está no departamento 17
+Empregado 18 está no departamento 17
+Empregado 19 está no departamento 19
+
+Empregados 1 e 3 estão no mesmo departamento? Sim
+Empregados 1 e 5 estão no mesmo departamento? Nao
+Empregados 3 e 4 estão no mesmo departamento? Sim
+Empregados 17 e 18 estão no mesmo departamento? Sim
